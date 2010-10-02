@@ -11,6 +11,7 @@ Rails::Initializer.run do |config|
   config.gem "soundcloud-auth", :lib => "soundcloud_auth"
   config.gem "will_paginate"
   config.gem "httparty"
+  config.gem "multipart"
   
   config.time_zone = 'UTC'
   
