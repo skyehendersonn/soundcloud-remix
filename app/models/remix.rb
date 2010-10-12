@@ -16,7 +16,8 @@ class Remix < ActiveRecord::Base
   end
   
   def available?
-    HTTParty.get("http://api.soundcloud.com/tracks/#{track_id}").code == 404 ? false : true
+    consumer_key = YAML.load_file(File.join(Rails.root, "config", "soundcloud_auth.yml"))[RAILS_ENV]["key"]
+    HTTParty.get("http://api.soundcloud.com/tracks/#{track_id}&consumer_key=#{consumer_key}").code == 404 ? false : true
   end
   
   def voted?(ip_address)
