@@ -8,11 +8,6 @@ Rails::Initializer.run do |config|
     config.load_paths << "#{RAILS_ROOT}/app/#{dir}"
   end
   
-  config.gem "soundcloud-auth", :lib => "soundcloud_auth"
-  config.gem "will_paginate"
-  config.gem "httparty"
-  config.gem "multipart"
-  
   config.time_zone = 'UTC'
   
 end
