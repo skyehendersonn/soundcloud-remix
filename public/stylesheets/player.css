@@ -18,12 +18,13 @@
 
 .sc-controls a, .sc-player.playing .sc-controls a.sc-pause{ display: block; }
 
-.sc-controls a { color: transparent; background: url('/images/play.png'); }
-.sc-controls a:hover { background: url('/images/play-hover.png'); }
-.sc-controls a.sc-pause { background: url('/images/play.png'); }
-.sc-controls a.sc-pause:hover{ background: url('/images/play-hover.png'); }
-.sc-player.playing .sc-controls a.sc-pause{ background: url('/images/pause.png?1'); }
-.sc-player.playing .sc-controls a.sc-pause:hover{ background: url('/images/pause-hover.png?1'); }
+
+.sc-controls a { color: transparent; background: url('/images/control.png') 0 0;}
+.sc-controls a:hover { background: url('/images/control.png') 30px 0;}
+.sc-controls a.sc-pause { background: url('/images/control.png') 0 0;}
+.sc-controls a.sc-pause:hover{ background: url('/images/control.png') 30px 0;}
+.sc-player.playing .sc-controls a.sc-pause{ background: url('/images/control.png') 0 30px;}
+.sc-player.playing .sc-controls a.sc-pause:hover{ background: url('/images/control.png') 30px 30px;}
 
 /* Scrubber */
 
