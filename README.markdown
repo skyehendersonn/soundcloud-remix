@@ -1,3 +1,7 @@
+# DEPRECATED APP
+
+We've recently redeveloped the SoundCloud Remix system into [SoundCloud-Competition](http://github.com/soundcloud/soundcloud-competition) and won't be supporting / updating this app anymore. Check out the new solution, it's rad.
+
 # SoundCloud-Remix
 
 This app allows you to easily throw a SoundCloud Remix competition on your website. The default application has plenty of customization options but feel free to adjust and fork as needed. You can see an example of the default app running [here](http://soundcloud-remix.heroku.com/).
