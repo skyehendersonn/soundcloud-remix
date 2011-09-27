@@ -1,4 +1,4 @@
-# DEPRECATED APP
+# SOUNDCLOUD-REMIX HAS BEEN REPLACED BY SOUNDCLOUD-COMPETITION
 
 We've recently redeveloped the SoundCloud Remix system into [SoundCloud-Competition](http://github.com/soundcloud/soundcloud-competition) and won't be supporting / updating this app anymore. Check out the new solution, it's rad.
 
